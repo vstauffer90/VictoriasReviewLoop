@@ -159,9 +159,18 @@ header.shadow .logo {
     align-items: center;
 }
 
+/*STYLING FOR MAIN PAGE*/
 .about .contentBx {
     max-width: 50%; /*ensures empty space on left side of screen when content is vertically centered*/
     width: 50%;
+    text-align: left;
+    padding-right: 40px; /*ensures space between text and right image*/
+}
+
+/*STYLING FOR ALL SUB PAGES*/
+.subAbout .subContentBx {
+    max-width: 80%; /*ensures empty space on left side of screen when content is vertically centered*/
+    width: 80%;
     text-align: left;
     padding-right: 40px; /*ensures space between text and right image*/
 }
